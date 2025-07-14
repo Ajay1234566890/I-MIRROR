@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "src/screens/SplashScreen/SplashScreen.tsx",
+      "label": "SplashScreen",
+      "routes": [
+        "/",
+        "/splash"
+      ],
+      "isRoot": true
+    },
+    {
+      "id": "src/screens/IntroCarousel/IntroCarousel.tsx",
+      "label": "IntroCarousel",
+      "routes": [
+        "/intro"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "src/screens/SplashScreen/SplashScreen.tsx:10:6-to-src/screens/IntroCarousel/IntroCarousel.tsx",
+      "source": "src/screens/SplashScreen/SplashScreen.tsx",
+      "target": "src/screens/IntroCarousel/IntroCarousel.tsx",
+      "data": {
+        "viaRoute": "/intro",
+        "trigger": {
+          "element": "navigate(\"/intro\")",
+          "line": 10,
+          "endLine": 10,
+          "column": 6,
+          "endColumn": 24,
+          "sourceFile": "src/screens/SplashScreen/SplashScreen.tsx"
+        }
+      }
+    }
+  ]
+}
