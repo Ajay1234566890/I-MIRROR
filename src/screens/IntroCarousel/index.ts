@@ -1,1 +1,0 @@
-export { IntroCarousel } from "./IntroCarousel";
